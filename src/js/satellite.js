@@ -1,4 +1,4 @@
-techplaya.satellite = function(){
+techplaya.satellite = function(lon,lat){
 
     var world = techplaya.world;
 
@@ -59,13 +59,13 @@ techplaya.satellite = function(){
 
     svg.append("circle")
         .attr("class", "city")
-        .attr("cx", projection([-87.06, 20.6167])[0])
-        .attr("cy", projection([-87.06, 20.6167])[1])
+        .attr("cx", projection([lon, lat])[0])
+        .attr("cy", projection([lon, lat])[1])
         .attr("r", 5);
 
     var home_city = svg.append("circle")
-        .attr("cx", projection([-87.06, 20.6167])[0])
-        .attr("cy", projection([-87.06, 20.6167])[1])
+        .attr("cx", projection([lon, lat])[0])
+        .attr("cy", projection([lon, lat])[1])
         .attr("fill", "none")
         .attr("stroke", "black");
 
