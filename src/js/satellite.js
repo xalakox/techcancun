@@ -50,7 +50,7 @@ techplaya.satellite = function(){
         .attr("class", "graticule")
         .style("opacity", "0.3")
         .attr("clip-path", "url(#clip-intro)")
-        .attr("d", path)
+        .attr("d", path);
      
     svg.append("path")
         .datum(topojson.object(world, world.objects.land))
@@ -61,13 +61,13 @@ techplaya.satellite = function(){
         .attr("class", "city")
         .attr("cx", projection([-87.06, 20.6167])[0])
         .attr("cy", projection([-87.06, 20.6167])[1])
-        .attr("r", 5)
+        .attr("r", 5);
 
     var home_city = svg.append("circle")
         .attr("cx", projection([-87.06, 20.6167])[0])
         .attr("cy", projection([-87.06, 20.6167])[1])
         .attr("fill", "none")
-        .attr("stroke", "black")
+        .attr("stroke", "black");
 
     function radar(){
       home_city
@@ -79,14 +79,14 @@ techplaya.satellite = function(){
           .attr("r", 20)
           .attr("stroke-width", 10)
           .attr("stroke-opacity", 0)
-          .each("end", radar)
-    }
+          .each("end", radar);
+     }
 
     var satellite  = d3.select("#satellite svg");
     function map_adjust(){
-      var proportion = 1600 / window.innerWidth * 600
+      var proportion = 1600 / window.innerWidth * 600;
       satellite.attr("viewBox", "0 -" + proportion/2 + " 1600 " + 1600 / window.innerWidth * 600);
-    }
+     }
 
     window.onresize = map_adjust; 
 
