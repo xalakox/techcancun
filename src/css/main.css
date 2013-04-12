@@ -1,7 +1,7 @@
 /* COLORS
 
-   #00B9DB Bright blue text
-   #3AA5BF Bright blue background
+   #DB8300 Bright blue text
+   #BF8A3A Bright blue background
    #0D0F0F Dark background
    ———————————————————————————————————————————————————— */
 
@@ -12,21 +12,21 @@
 html, button, input, select, textarea { color: #222; }
 h1, h2, h3, h4, h5, h6 { font-weight: 300;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-::-moz-selection { background: #00B9DB; text-shadow: none; color: white;}
-::selection { background: #00B9DB; text-shadow: none; color: white;}
+::-moz-selection { background: #DB8300; text-shadow: none; color: white;}
+::selection { background: #DB8300; text-shadow: none; color: white;}
 img { vertical-align: middle;}
 
 body {
     background: #0D0F0F;
     font-size: 20px;
     line-height: 140%;
-    color: #778B94;
+    color: #948577;
     font-family: 'Source Sans Pro', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
 h2 {
-  color: #00B9DB;
+  color: #DB8300;
   margin: 0;
   font-size: 48px;
   line-height: 110%;
@@ -171,7 +171,7 @@ section.people .person address a {
   font-size: 15px;
   line-height: 30px;
   height: 30px;
-  background: rgba(0,185,219,0.3);
+  background: rgba(219, 140, 0, 0.3);
   width: 30px;
   font-weight: 600;
   border-radius: 3px;
@@ -193,7 +193,7 @@ section.people .person address a.skype img {
 }
 
 section.people .person address a.email {
-    background: #00B9DB;
+    background: #DB8300;
     padding: 0 10px;
     width: auto;
 }
@@ -247,7 +247,7 @@ section.people .details {
 
 section.people .person .missing {
   border: solid #121B22 1px;
-  color: #343B44;
+  color: #443C34;
   font-size: 24px;
   min-height: 360px;
   text-align: center;
@@ -259,8 +259,8 @@ section.people .person .missing a {
   font-size: 28px;
   display: inline-block;
   margin-bottom: 5px;
-  color: #00B9DB;
-  border-bottom-color: #00B9DB;
+  color: #DB8300;
+  border-bottom-color: #DB8300;
 }
 
 mark {background: transparent; color: #999; display: block; font-size: 16px; line-height: 140%;}
@@ -346,7 +346,7 @@ section.gallery img {
 }
 
 .columns .highlighted {
-  background: #3AA5BF;
+  background: #BF8A3A;
   color: black;
   margin: 0 -15px;
 }
@@ -362,8 +362,8 @@ section.gallery img {
   position: absolute;
   top: 0;
   right: 0;
-  border-bottom-color: #2994ae;
-  border-left-color: #2994ae;
+  border-bottom-color: #AE5E29;
+  border-left-color: #AE5E29;
 }
 
 .columns dd.highlighted {
@@ -448,7 +448,7 @@ dt {
   position: absolute;
   top: 1px;
   bottom: 0;
-  border-left: solid #00B9DB 3px;
+  border-left: solid #DB8300 3px;
   border-right: solid #c33 3px;
   -webkit-transition: all 500ms ease;
 }
@@ -498,8 +498,8 @@ section.weather .units .unit {
 }
 
 section.weather .units .selected {
-  background: #00B9DB;
-  box-shadow: 0 0 10px rgba(0,185,219,0.3);
+  background: #DB8300;
+  box-shadow: 0 0 10px rgba(219, 140, 0, 0.3);;
   color: black;
   border-radius: 30px;
   text-shadow: 0 1px 1px white;
@@ -551,7 +551,7 @@ section.weather .units .selected {
 }
 
 section.intro .land {
-  fill: #3EB0D1;
+  fill: #D17F3E;
 }
 
 section.intro .background {
@@ -559,13 +559,13 @@ section.intro .background {
 }
 
 section.intro {
-  background: #40B9DB;
+  background: #DB9740;
   position: relative;
   z-index: 0;
 }
 
 section.intro .foreground {
-  fill: #40B9DB;
+  fill: #DB9740;
 }
 
 
