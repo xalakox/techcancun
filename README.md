@@ -1,7 +1,7 @@
-Techcancun
+TechCancun
 =============
 
-This is the website that drives [techplaya.com](http://techcancun.com/). It's a showcase of people who work in dev/design/biz in Cancun. You might want to use it as a starting point for a showcase of your own community. Behind the scenes it uses [D3](http://d3js.com/), a really awesome javascript library for manipulating documents based on data. 
+This is the website that drives [techcancun.com](http://techcancun.com/). It's a showcase of people who work in dev/design/biz in Cancun. You might want to use it as a starting point for a showcase of your own community. Behind the scenes it uses [D3](http://d3js.com/), a really awesome javascript library for manipulating documents based on data. 
 
 MIT License
 
