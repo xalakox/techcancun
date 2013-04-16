@@ -1,14 +1,14 @@
-Techplaya
+Techcancun
 =============
 
-This is the website that drives [techplaya.com](http://techplaya.com/). It's a showcase of people who work in dev/design/biz in Playa del Carmen. You might want to use it as a starting point for a showcase of your own community. Behind the scenes it uses [D3](http://d3js.com/), a really awesome javascript library for manipulating documents based on data. 
+This is the website that drives [techplaya.com](http://techcancun.com/). It's a showcase of people who work in dev/design/biz in Cancun. You might want to use it as a starting point for a showcase of your own community. Behind the scenes it uses [D3](http://d3js.com/), a really awesome javascript library for manipulating documents based on data. 
 
 MIT License
 
 Rationale
 -------
 
-Playa del Carmen is a small city along the Mexican Caribbean. It is a popular tourist destination and it hosts a small tech community. We would like to connect with other like-minded individuals who visit the area. 
+Cancun is a city along the Mexican Caribbean. It is a popular tourist destination and it hosts a not so small tech community. We would like to connect with other like-minded individuals who visit the area. 
 
 Customization
 -------
