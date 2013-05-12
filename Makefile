@@ -40,7 +40,7 @@ release:
 	mkdir -p release;
 	mkdir -p release/css;
 	mkdir -p release/js;
-	cp -r src/img release/img;
+	cp -r src/img/ release/img/;
 
 	# Remove all hidden .svn directories
 	-find release -name .git -type d | xargs rm -rf {} \;
