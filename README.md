@@ -35,3 +35,4 @@ TODO
 * Put under a better build process such as middleman
 * Create fallbacks for browsers that don't support SVG
 
+![Codeship Status](https://www.codeship.io/projects/e1286740-5d84-0131-692d-2a0738b6ecf1/status)
