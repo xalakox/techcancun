@@ -12,7 +12,8 @@
   <!--{if release}>
   <link rel="stylesheet" href="css/techplaya.compiled.css">
   <!{else}-->
-  <link rel="stylesheet" href="css/techplaya.compiled.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
   <!--{endif}-->
 </head>
@@ -367,7 +368,7 @@
         <img src="img/people/jorge.jpg" />
         <figcaption>
           <div class="name">Jorge Castro</div>
-          <div class="role">Vice President Sales at Pulso Viral</div>
+          <div class="role">Vice president Sales at Pulso Viral</div>
             <address>
               <a href="mailto:yosoy@jorgecastro.mx" class="email">
               yosoy@jorgecastro.mx
@@ -624,7 +625,16 @@
 <!--{if release}>
   <script type="text/javascript" src="js/techplaya.compiled.js"></script>
 <!{else}-->
-<script src="js/techplaya.compiled.js"></script>
+<script src="js/vendor/d3.v3.min.js"></script>
+<script src="js/vendor/d3.geo.projection.v0.min.js"></script>
+<script src="js/vendor/topojson.v0.min.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/world.js"></script>
+<script src="js/destinations.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/satellite.js"></script>
+<script src="js/flights.js"></script>
+<script src="js/load.js"></script>
 <!--{endif}-->
 
 <script type="text/javascript">
